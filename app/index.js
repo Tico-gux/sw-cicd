@@ -1,1 +1,5 @@
-console.log("hola  mundo");
+const a = () => {
+  return "hola  mundo";
+};
+
+module.exports = { a };
