@@ -13,8 +13,7 @@ notifications:
   slack: builds-espacio:FYgdWLifWHXck8FnYmgIWoWQ
 deploy:
   provider: heroku
-  api_key:
-    secure: dc0612de-9e19-4c8b-9b49-13950c34c954
+  api_key: dc0612de-9e19-4c8b-9b49-13950c34c954
   app: sw-cicd
   on:
     branch: main
