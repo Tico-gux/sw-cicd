@@ -11,3 +11,7 @@ addons:
       secure: "75e7f77ec2a40db19a75b10874526b793db409c6"
 notifications:
   slack: builds-espacio:FYgdWLifWHXck8FnYmgIWoWQ
+deploy:
+  provider: heroku
+  api_key:
+    secure: "8ae4781a-7588-4918-aa48-f38b5edab18f"

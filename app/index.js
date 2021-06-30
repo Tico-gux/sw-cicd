@@ -1,5 +1,5 @@
 const a = () => {
-  return "hola mndo";
+  return "hola mundo";
 };
 
 module.exports = { a };
