@@ -1,2 +1,11 @@
 language: node_js
 node_js: 14.16.1
+
+jdk:
+  - oraclejdk8
+
+addons:
+  sonarcloud:
+    organization: "tico-gux"
+    token:
+      secure: "75e7f77ec2a40db19a75b10874526b793db409c6"
