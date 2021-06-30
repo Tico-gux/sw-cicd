@@ -14,7 +14,7 @@ notifications:
 deploy:
   provider: heroku
   api_key:
-    secure: "dc0612de-9e19-4c8b-9b49-13950c34c954"
+    secure: dc0612de-9e19-4c8b-9b49-13950c34c954
   app: sw-cicd
   on:
     branch: main
